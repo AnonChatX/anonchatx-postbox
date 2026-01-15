@@ -203,16 +203,25 @@ If you are looking for control, this one makes trade-offs explicit.
 
 ---
 
-## Donations
+## Support & sustainability
 
-AnonChatX Postbox is developed independently.
+AnonChatX is an independent, community-supported project.
 
-If you support its existence, you can contribute financially:
+Support may include:
+- Code contributions
+- Infrastructure
+- Testing devices
+- Financial support
 
-**Monero:**  
-`85kkMcowoNwQwji3ugetQvfwismWuvGWWLWfhWoyLjqnDAcgsnpVMsWG76zMm3zEb9WfUcJqBCKZKQ8wVox58tfr7dY7CXF`
+Donation information (including privacy-respecting options and current wallet addresses)
+is maintained in the main AnonChatX Android repository:
 
-Donations do not grant influence.
+https://github.com/AnonChatX/anonchatx-android#support--sustainability
+
+Part of the project’s resources are used to support the Tor ecosystem
+by running relays and bridges.
+
+**Sponsorship does not equal influence.**
 
 ---
 
