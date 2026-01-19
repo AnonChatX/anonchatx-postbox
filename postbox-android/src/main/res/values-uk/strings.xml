@@ -1,3 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">AnonChatX Postbox</string>
+    <string name="button_continue">Продовжити</string>
+    <string name="warning_dozed">AnonChatX не вдалося запустити у фоновому режимі</string>
+    <string name="share">Поділитися</string>
+    <string name="last_connection">З\'єднання було: %s</string>
+    <string name="unlink">Від\'єднати</string>
+    <string name="unlink_title">Від\'єднати потову скриньку?</string>
+    <string name="setup_complete_title">Під\'єднано</string>
+    <string name="setup_complete_description">Ваш AnonChatX Postbox успішно під\'єднано до AnonChatX.\n \nЗабезпечте AnonChatX Postbox постійне з\'єднання з електромережею та Wi-Fi, щоб він постійно був на зв\'язку.</string>
+    <string name="setup_complete_finish">Закінчити</string>
+    <string name="startup_failed_service_error">AnonChatX не зміг запустити необхідний компонент.\n\nБудь ласка, оновіть застосунок до найновішої версії й повторіть спробу.</string>
 </resources>
