@@ -59,4 +59,9 @@
     <string name="activity_not_found">Не знайдено додатка для цієї дії</string>
     <string name="startup_failed_activity_title">AnonChatX Помилка запуску поштової скриньки</string>
     <string name="startup_failed_lifecycle_reuse">AnonChatX Поштова скринька вже зупинена.\n\nЗакрийте додаток і спробуйте ще раз.</string>
+    <string name="fix">Виправити</string>
+    <string name="ok">Гаразд</string>
+    <string name="cancel">Скасувати</string>
+    <string name="now">зараз</string>
+    <string name="sorry">Вибачте</string>
 </resources>
