@@ -59,4 +59,9 @@
     <string name="onboarding_1_description">قم بتثبيت تطبيق AnonChatX Postbox على هاتف أو جهاز لوحي احتياطي واتركه متصلاً بالطاقة والواي فاي.</string>
     <string name="clock_skew_title">ساعة النظام الخاطئة</string>
     <string name="link_text_title">الربط عبر النص</string>
+    <string name="sorry">معذرة</string>
+    <string name="ok">موافقة</string>
+    <string name="cancel">إلغاء</string>
+    <string name="fix">إصلاح</string>
+    <string name="now">الآن</string>
 </resources>
