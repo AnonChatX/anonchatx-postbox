@@ -59,4 +59,9 @@
     <string name="app_name">Buzón</string>
     <string name="share">Compartir</string>
     <string name="unlink">Desvincular</string>
+    <string name="sorry">Disculpa</string>
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="fix">Reparar</string>
+    <string name="now">ahora</string>
 </resources>
