@@ -48,4 +48,15 @@
     <string name="onboarding_1_description">Instale la aplicación AnonChatX Postbox en un teléfono o tableta de repuesto y déjela conectada a la corriente y al WiFi.</string>
     <string name="clock_skew_title">Reloj del sistema incorrecto</string>
     <string name="link_text_title">Enlace mediante texto.</string>
+    <string name="setup_complete_title">Conectado</string>
+    <string name="setup_complete_description">Tu Buzón ha sido vinculado exitosamente con AnonChatX.\n \nMantén tu Buzón conectado al suministro eléctrico y al Wi-Fi, de modo que siempre esté en línea.</string>
+    <string name="warning_dozed">AnonChatX no ha podido ejecutarse en segundo plano</string>
+    <string name="setup_complete_finish">Finalizar</string>
+    <string name="button_continue">Continuar</string>
+    <string name="startup_failed_service_error">AnonChatX no fue capaz de iniciar un componente requerido.\n\nPor favor, actualiza a la última versión de la aplicación e inténtalo de nuevo.</string>
+    <string name="unlink_title">¿Desenlazar el buzón?</string>
+    <string name="last_connection">Última conexión: %s</string>
+    <string name="app_name">Buzón</string>
+    <string name="share">Compartir</string>
+    <string name="unlink">Desvincular</string>
 </resources>
