@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="setup_complete_title">متصل</string>
+    <string name="setup_complete_description">لقد ربطت صندوق بريدك بـبراير بنجاح.\n \nحافظ على اتصال صندوق بريدك بمصدر الطاقة وشبكة Wi-Fi حتى يكون متصلاً بالإنترنت دائمًا.</string>
+    <string name="setup_complete_finish">إنهاء</string>
+    <string name="button_continue">إستمرار</string>
+    <string name="unlink_title">هل تريد إلغاء ارتباط صندوق البريد؟</string>
+    <string name="last_connection">آخر اتصال: %s</string>
+    <string name="app_name">صندوق البريد</string>
+    <string name="share">شارك</string>
+    <string name="unlink">فك الارتباط</string>
 </resources>
