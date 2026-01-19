@@ -6,7 +6,7 @@
     <string name="button_continue">إستمرار</string>
     <string name="unlink_title">هل تريد إلغاء ارتباط صندوق البريد؟</string>
     <string name="last_connection">آخر اتصال: %s</string>
-    <string name="app_name">صندوق البريد</string>
+    <string name="app_name">AnonChatX Postbox</string>
     <string name="share">شارك</string>
     <string name="unlink">فك الارتباط</string>
     <string name="button_skip_intro">تخطي المقدمة</string>
