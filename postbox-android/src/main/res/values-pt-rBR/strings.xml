@@ -59,4 +59,9 @@
     <string name="app_name">AnonChatX Postbox</string>
     <string name="share">Compartilhar</string>
     <string name="unlink">Desvincular</string>
+    <string name="sorry">Sentimos muito</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="fix">Consertar</string>
+    <string name="now">agora</string>
 </resources>
