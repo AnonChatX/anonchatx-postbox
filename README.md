@@ -203,9 +203,54 @@ If you are looking for control, this one makes trade-offs explicit.
 
 ---
 
+## Open source & verification
+
+AnonChatX is developed transparently and in public.
+
+Security relies on:
+- Public, auditable source code
+- Independent review
+- The ability to fork, reproduce, and verify builds
+
+---
+
+## Contributing
+
+AnonChatX is under active development, with a strong focus on security,
+resilience, and real-world adversarial environments.
+
+Contributions of all kinds are welcome:
+
+- Android development
+- Networking & transport layers
+- Cryptography review
+- UX for high-risk users
+- Documentation & threat analysis
+
+➡️ See [CONTRIBUTING.md](./CONTRIBUTING.md)
+
+---
+
+## Contact
+
+For security-related matters, responsible disclosure, or project coordination,
+you can contact the AnonChatX maintainers at:
+
+**anonchatsec@protonmail.com**
+
+Proton Mail access:
+- Clearnet: https://proton.me
+- Tor (official Proton Mail Tor entry):
+  https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion/
+
+Please avoid sharing sensitive operational details unless strictly necessary,
+and prefer encrypted communication when appropriate.
+
+---
+
 ## Support & sustainability
 
-AnonChatX is an independent, community-supported project.
+AnonChatX is independent and community-supported.
 
 Support may include:
 - Code contributions
@@ -213,10 +258,19 @@ Support may include:
 - Testing devices
 - Financial support
 
-Donation information (including privacy-respecting options and current wallet addresses)
-is maintained in the main AnonChatX Android repository:
+Financial contributions are accepted in a privacy-respecting way:
 
-https://github.com/AnonChatX/anonchatx-android#support--sustainability
+**Monero (XMR) — preferred**
+
+`85kkMcowoNwQwji3ugetQvfwismWuvGWWLWfhWoyLjqnDAcgsnpVMsWG76zMm3zEb9WfUcJqBCKZKQ8wVox58tfr7dY7CXF`
+
+**Bitcoin (BTC) — accepted (public by default)**
+
+`bc1qqjw2qyj276jkwdd0wxm4y4vyggsmr73y9nm066`
+
+For QR codes, and updated donation information, see:
+https://anonchatx.org/#supporters
+(onion mirror soon available)
 
 Part of the project’s resources are used to support the Tor ecosystem
 by running relays and bridges.
@@ -227,10 +281,33 @@ by running relays and bridges.
 
 ## License
 
-This program is free software: you can redistribute it and/or modify it
-under the terms of the **GNU Affero General Public License**, version 3 or later.
+AnonChatX is free and open source software, licensed under the
+**GNU General Public License v3.0 (GPL-3.0)**.
 
-See [LICENSES/AGPL-3.0-or-later.txt](LICENSES/AGPL-3.0-or-later.txt).
+This means you are free to:
+- Use the software for any purpose
+- Study how it works and modify it
+- Redistribute it
+- Distribute modified versions
 
-This project is compliant with version 3.0 of the
-[REUSE Specification](https://reuse.software).
+Under the following conditions:
+- Source code (including modifications) must be made available under the same license
+- License notices and attributions must be preserved
+- No additional restrictions may be imposed on users’ freedoms
+
+AnonChatX derives from the Briar project and other GPL-licensed components.
+All required attributions and license notices are included in this repository.
+
+See the [LICENSE](./LICENSE) file for full details.
+
+---
+
+## Disclaimer
+
+AnonChatX is designed for real-world adversarial environments, but no software
+can eliminate all risk.
+
+Users are responsible for understanding their own threat model,
+operational security, and legal context.
+
+Privacy is a condition you defend — not a checkbox you enable.
