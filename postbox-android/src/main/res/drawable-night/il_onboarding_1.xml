@@ -73,7 +73,7 @@
         android:strokeWidth="1"
         android:fillType="evenOdd"/>
     <group
-        android:name="anonchatx_logo"
+        android:name="anonomi_logo"
         android:pivotX="0"
         android:pivotY="0"
         android:scaleX="0.19931"
@@ -87,7 +87,7 @@
     </group>
 
     <group
-        android:name="anonchatx_logo"
+        android:name="anonomi_logo"
         android:pivotX="0"
         android:pivotY="0"
         android:scaleX="0.19931"

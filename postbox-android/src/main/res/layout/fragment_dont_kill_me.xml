@@ -35,7 +35,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/illustration" />
 
-        <org.anonchatx.postbox.android.dontkillme.DozeView
+        <org.anonomi.postbox.android.dontkillme.DozeView
             android:id="@+id/dozeView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -45,7 +45,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/divider" />
 
-        <org.anonchatx.postbox.android.dontkillme.HuaweiProtectedAppsView
+        <org.anonomi.postbox.android.dontkillme.HuaweiProtectedAppsView
             android:id="@+id/huaweiProtectedAppsView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dozeView" />
 
-        <org.anonchatx.postbox.android.dontkillme.HuaweiAppLaunchView
+        <org.anonomi.postbox.android.dontkillme.HuaweiAppLaunchView
             android:id="@+id/huaweiAppLaunchView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -63,7 +63,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/huaweiProtectedAppsView" />
 
-        <org.anonchatx.postbox.android.dontkillme.XiaomiRecentAppsView
+        <org.anonomi.postbox.android.dontkillme.XiaomiRecentAppsView
             android:id="@+id/xiaomiRecentAppsView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/huaweiAppLaunchView" />
 
-        <org.anonchatx.postbox.android.dontkillme.XiaomiLockAppsView
+        <org.anonomi.postbox.android.dontkillme.XiaomiLockAppsView
             android:id="@+id/xiaomiLockAppsView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

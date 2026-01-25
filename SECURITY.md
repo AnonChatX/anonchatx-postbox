@@ -2,20 +2,20 @@
 
 ## Reporting a Vulnerability
 
-AnonChatX takes security and privacy seriously.
+Anonomi takes security and privacy seriously.
 
 If you discover a **security or privacy vulnerability**, please report it **responsibly and privately**.
 
-### ⚠️ Do NOT
+### Do NOT
 - Do **not** open a public GitHub issue
 - Do **not** discuss the issue publicly (issues, PRs, forums, social media)
 - Do **not** test exploits against users or production infrastructure
 
-### ✅ How to report
+### How to report
 
 Please report vulnerabilities via email:
 
-📧 **anonchatsec@protonmail.com**
+**anonomi@protonmail.com**
 
 - You may use PGP if needed
 - You do not need a GitHub account
@@ -37,7 +37,7 @@ If available, include:
 ## Scope
 
 This security policy applies to:
-- All AnonChatX applications
+- All Anonomi applications
 - Services, tooling, and infrastructure code
 - Protocol design and implementation
 - Documentation errors that could lead to unsafe use
@@ -59,7 +59,7 @@ Please allow time for investigation and remediation before any public discussion
 
 ## Philosophy
 
-AnonChatX is designed for users who may operate under **adversarial conditions**.
+Anonomi is designed for users who may operate under **adversarial conditions**.
 
 Security decisions prioritize:
 - User safety over convenience
@@ -71,4 +71,4 @@ We appreciate responsible research that respects these principles.
 
 ---
 
-Thank you for helping keep AnonChatX safe.
+Thank you for helping keep Anonomi safe.

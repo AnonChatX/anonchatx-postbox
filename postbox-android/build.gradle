@@ -37,7 +37,7 @@ android {
     compileSdkVersion 33
     buildToolsVersion "33.0.1"
 
-    namespace "org.anonchatx.postbox"
+    namespace "org.anonomi.postbox"
 
 	signingConfigs {
 		release {
@@ -60,7 +60,7 @@ android {
 
 
 	defaultConfig {
-        applicationId "org.anonchatx.postbox"
+        applicationId "org.anonomi.postbox"
         minSdkVersion 16
         targetSdkVersion 33
         versionCode 10002
@@ -213,15 +213,15 @@ tasks.withType(MergeResources) {
     dependsOn unpackTorBinaries
 }
 
-// ✅ New task: Copy release APK to AnonChat assets
-tasks.register("copyApkToBriarAssets", Copy) {
+// ✅ New task: Copy release APK to Anonomi assets
+tasks.register("copyApkToAnonomiAssets", Copy) {
     dependsOn("assembleRelease")
     from("$buildDir/outputs/apk/release") {
         include("*.apk")
-        rename { "anonchatx-postbox.apk" }
+        rename { "anonomi-postbox.apk" }
     }
-    // Go up one level from briar-mailbox to anonchat, then into briar-android
-    into("$rootDir/../anonchatx-android/src/main/assets/")
+    // Go up one level from postbox to anonomi-android
+    into("$rootDir/../anonomi-android/src/main/assets/")
 }
 
 apply from: "../gradle/ktlint.gradle"

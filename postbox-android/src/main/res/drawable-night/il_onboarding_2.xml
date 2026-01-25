@@ -120,7 +120,7 @@
         android:fillColor="#a3e635"
         android:strokeWidth="1"/>
     <group
-        android:name="anonchatx_logo"
+        android:name="anonomi_logo"
         android:pivotX="0"
         android:pivotY="0"
         android:scaleX="0.17931"

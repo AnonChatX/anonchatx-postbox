@@ -1,4 +1,4 @@
-# AnonChatX Postbox Rest API
+# Anonomi Postbox Rest API
 
 All postbox requests are authenticated with a Bearer Authorization HTTP header:
 
@@ -38,11 +38,11 @@ a list of API versions that the Postbox supports. Response example:
 }
 ```
 
-If the token has already been used then the call returns `401 Unauthorized` and AnonChatX should tell the user to reset/wipe the postbox and try again.
+If the token has already been used then the call returns `401 Unauthorized` and Anonomi should tell the user to reset/wipe the postbox and try again.
 
-After a successful response, AnonChatX performs the requests it does on each new connection to the postbox, e.g. syncing contacts.
-If AnonChatX crashes after the postbox processes the pairing call, but before AnonChatX receives the reply, then after restarting AnonChatX the user should be led through the steps to wipe the postbox and start again, whenever the user visits the postbox status screen.
-If we lose the connection, but AnonChatX doesn't crash after the postbox processes the pairing call, but before AnonChatX receives the reply, then the AnonChatX UI leads the user through the steps to reset/wipe the postbox and start again as well.
+After a successful response, Anonomi performs the requests it does on each new connection to the postbox, e.g. syncing contacts.
+If Anonomi crashes after the postbox processes the pairing call, but before Anonomi receives the reply, then after restarting Anonomi the user should be led through the steps to wipe the postbox and start again, whenever the user visits the postbox status screen.
+If we lose the connection, but Anonomi doesn't crash after the postbox processes the pairing call, but before Anonomi receives the reply, then the Anonomi UI leads the user through the steps to reset/wipe the postbox and start again as well.
 
 ### Get list of supported API versions (owner only)
 
@@ -65,7 +65,7 @@ Returns `200 OK` with a list of supported versions. Response example:
 
 ### Remote wipe (owner only)
 
-Unpairs AnonChatX and the postbox.
+Unpairs Anonomi and the postbox.
 Resets postbox state to that after first install ( e.g. removes all stored files as well).
 
 ```http
@@ -94,7 +94,7 @@ Adds a new contact to the postbox.
 POST /contacts
 ```
 
-AnonChatX generates random 32-byte `token`, `inboxId` and `outboxId` encoded as hexadecimal strings
+Anonomi generates random 32-byte `token`, `inboxId` and `outboxId` encoded as hexadecimal strings
 and sends them along with its `contactId`.
 
 Example request body:

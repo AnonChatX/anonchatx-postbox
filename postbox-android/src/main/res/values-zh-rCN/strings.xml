@@ -1,13 +1,13 @@
 <resources>
-    <string name="app_name">AnonChatX Postbox</string>
-    <string name="notification_channel_name">AnonChatX Postbox 渠道</string>
+    <string name="app_name">Anonomi Postbox</string>
+    <string name="notification_channel_name">Anonomi Postbox 渠道</string>
     <string name="notification_mailbox_title_starting">Postbox 启动中</string>
     <string name="notification_mailbox_content_starting">正在启动 mailbox…</string>
     <string name="notification_mailbox_title_setup">设置 Postbox</string>
-    <string name="notification_mailbox_content_setup">正等待 AnonChatX 扫描二维码…</string>
-    <string name="notification_mailbox_title_running">AnonChatX Postbox 运行中</string>
+    <string name="notification_mailbox_content_setup">正等待 Anonomi 扫描二维码…</string>
+    <string name="notification_mailbox_title_running">Anonomi Postbox 运行中</string>
     <string name="notification_mailbox_content_running">等待消息中…</string>
-    <string name="notification_mailbox_title_offline">AnonChatX Postbox 离线</string>
+    <string name="notification_mailbox_title_offline">Anonomi Postbox 离线</string>
     <string name="notification_mailbox_content_offline">等待互联网连接中…</string>
     <string name="notification_mailbox_content_clock_skew">等待正确的系统时钟中…</string>
     <string name="button_continue">继续</string>
@@ -15,17 +15,17 @@
     <string name="button_back">返回</string>
 
     <string name="onboarding_0_title">使用闲置设备</string>
-    <string name="onboarding_0_description">Postbox 应用帮助你和你的联系人保持联系并将你的消息同步到 AnonChatX</string>
+    <string name="onboarding_0_description">Postbox 应用帮助你和你的联系人保持联系并将你的消息同步到 Anonomi</string>
     <string name="onboarding_1_title">确保在线</string>
     <string name="onboarding_1_description">在闲置的手机或平板上安装 Postbox 应用并确保其不断电不断网</string>
     <string name="onboarding_2_title">消息加密</string>
-    <string name="onboarding_2_description">当你的 Postbox 在线时，即使你的 AnonChatX 处在离线状态，你的联系人仍可以给你留消息。Postbox 应用会接收这些消息并在你重新上线时将它们转发到 AnonChatX。</string>
+    <string name="onboarding_2_description">当你的 Postbox 在线时，即使你的 Anonomi 处在离线状态，你的联系人仍可以给你留消息。Postbox 应用会接收这些消息并在你重新上线时将它们转发到 Anonomi。</string>
     <string name="onboarding_3_title">传递</string>
-    <string name="onboarding_3_description">经由 Postbox 的消息是加密的无法被 Postbox 应用或这台手机所读取。Postbox 应用只负责将消息转发到你装有 AnonChatX Messenger 的手机上。</string>
+    <string name="onboarding_3_description">经由 Postbox 的消息是加密的无法被 Postbox 应用或这台手机所读取。Postbox 应用只负责将消息转发到你装有 Anonomi Messenger 的手机上。</string>
 
     <!-- TODO: We might want to copy string from don't kill me lib,
           so translation memory can auto-translate most of them. -->
-    <string name="warning_dozed">AnonChatX Postbox 无法在后台运行</string>
+    <string name="warning_dozed">Anonomi Postbox 无法在后台运行</string>
     <string name="fix">修复</string>
     <string name="ok">确定</string>
     <string name="cancel">取消</string>
@@ -33,10 +33,10 @@
     <string name="copied">已复制</string>
 
     <string name="link_title">通过二维码进行关联</string>
-    <string name="link_description">用 AnonChatX 扫描这个二维码</string>
+    <string name="link_description">用 Anonomi 扫描这个二维码</string>
     <string name="link_menu_title">显示为文本</string>
     <string name="link_text_title">通过文本链接</string>
-    <string name="link_text_description">复制这个并将它粘贴到 AnonChatX Desktop：</string>
+    <string name="link_text_description">复制这个并将它粘贴到 Anonomi Desktop：</string>
     <string name="link_cancel">取消设置</string>
 
     <string name="startup_headline">启动 Postbox</string>
@@ -58,19 +58,19 @@
     <string name="stop">停止</string>
     <string name="unlink">断开</string>
     <string name="unlink_title">解除 mailbox 链接？</string>
-    <string name="unlink_description">取消链接 Postbox 后，你将无法在 AnonChatX 脱机时接收消息。\n\n你确保要取消 AnonChatX 和 Postbox 之间的链接吗？</string>
+    <string name="unlink_description">取消链接 Postbox 后，你将无法在 Anonomi 脱机时接收消息。\n\n你确保要取消 Anonomi 和 Postbox 之间的链接吗？</string>
     <string name="confirm_stop_title">停止 Postbox？</string>
-    <string name="confirm_stop_description">当你停止运行你的 Postbox，该应用会关闭并停止接收消息直到你再次打开它。\n\n任何已经接收到的消息将被保存。当你重新打开 Postbox 应用， AnonChatX 将可以收集这些消息。</string>
+    <string name="confirm_stop_description">当你停止运行你的 Postbox，该应用会关闭并停止接收消息直到你再次打开它。\n\n任何已经接收到的消息将被保存。当你重新打开 Postbox 应用， Anonomi 将可以收集这些消息。</string>
 
     <string name="setup_complete_title">已连接</string>
-    <string name="setup_complete_description">已经成功地在你的 Mialbox 应用和 AnonChatX 之间建立了链接。\n\n请保持装有 Postbox 的设备不断电不断网，始终在线。</string>
+    <string name="setup_complete_description">已经成功地在你的 Mialbox 应用和 Anonomi 之间建立了链接。\n\n请保持装有 Postbox 的设备不断电不断网，始终在线。</string>
     <string name="setup_complete_finish">完成</string>
 
     <string name="stopping">正在停止 Postbox…</string>
 
     <string name="wipe_wiping">正在擦除 Postbox…</string>
     <string name="wipe_complete_title">擦除完毕</string>
-    <string name="wipe_complete_description">下次你接触装有 AnonChatX 应用的设备时，请打开 AnonChatX 中的 Postbox 设置屏幕，然后轻按“取消链接”按钮完成这一过程。</string>
+    <string name="wipe_complete_description">下次你接触装有 Anonomi 应用的设备时，请打开 Anonomi 中的 Postbox 设置屏幕，然后轻按“取消链接”按钮完成这一过程。</string>
 
     <string name="sorry">抱歉</string>
     <string name="activity_not_found">找不到进行此操作的应用程序</string>

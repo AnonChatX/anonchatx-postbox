@@ -1,13 +1,13 @@
 <resources>
-    <string name="app_name">AnonChatXメールボックス</string>
-    <string name="notification_channel_name">AnonChatXメールボックスチャンネル</string>
+    <string name="app_name">Anonomiメールボックス</string>
+    <string name="notification_channel_name">Anonomiメールボックスチャンネル</string>
     <string name="notification_mailbox_title_starting">メールボックス起動</string>
     <string name="notification_mailbox_content_starting">メールボックスを起動中…</string>
     <string name="notification_mailbox_title_setup">メールボックスを構成</string>
-    <string name="notification_mailbox_content_setup">AnonChatXがQRコードを読み取るのを待機しています…</string>
-    <string name="notification_mailbox_title_running">AnonChatXメールボックス実行</string>
+    <string name="notification_mailbox_content_setup">AnonomiがQRコードを読み取るのを待機しています…</string>
+    <string name="notification_mailbox_title_running">Anonomiメールボックス実行</string>
     <string name="notification_mailbox_content_running">メッセージを待機中…</string>
-    <string name="notification_mailbox_title_offline">AnonChatXメールボックスがオフライン</string>
+    <string name="notification_mailbox_title_offline">Anonomiメールボックスがオフライン</string>
     <string name="notification_mailbox_content_offline">インターネット接続を待機中…</string>
     <string name="notification_mailbox_content_clock_skew">システム時刻の修正を待機中…</string>
     <string name="button_continue">続ける</string>
@@ -15,17 +15,17 @@
     <string name="button_back">戻る</string>
 
     <string name="onboarding_0_title">到達可能を保持</string>
-    <string name="onboarding_0_description">メールボックスは、連絡先との接触と、AnonChatXへのメッセージが同期した状態を保つのを助けます。</string>
+    <string name="onboarding_0_description">メールボックスは、連絡先との接触と、Anonomiへのメッセージが同期した状態を保つのを助けます。</string>
     <string name="onboarding_1_title">予備端末を使う</string>
     <string name="onboarding_1_description">予備の電話機またはタブレット上にメールボックスアプリをインストールして、電源とWiFiに接続されたまま放置してください。</string>
     <string name="onboarding_2_title">メッセージ配達</string>
-    <string name="onboarding_2_description">AnonChatXがオフラインでも、メールボックスがオンラインの時、連絡先はあなたにメッセージを残せます。メールボックスはあなたがオンラインに復帰すると、メッセージを受け取って、AnonChatXにそれらを転送します。</string>
+    <string name="onboarding_2_description">Anonomiがオフラインでも、メールボックスがオンラインの時、連絡先はあなたにメッセージを残せます。メールボックスはあなたがオンラインに復帰すると、メッセージを受け取って、Anonomiにそれらを転送します。</string>
     <string name="onboarding_3_title">暗号化</string>
-    <string name="onboarding_3_description">メールボックスを経由するメッセージは暗号化され、メールボックスやこの電話機で読むことはできません。メールボックスは単に、あなたのAnonChatXメッセンジャー電話機に転送するだけです。</string>
+    <string name="onboarding_3_description">メールボックスを経由するメッセージは暗号化され、メールボックスやこの電話機で読むことはできません。メールボックスは単に、あなたのAnonomiメッセンジャー電話機に転送するだけです。</string>
 
     <!-- TODO: We might want to copy string from don't kill me lib,
           so translation memory can auto-translate most of them. -->
-    <string name="warning_dozed">AnonChatXメールボックスはバックグラウンドで実行できませんでした</string>
+    <string name="warning_dozed">Anonomiメールボックスはバックグラウンドで実行できませんでした</string>
     <string name="fix">修復する</string>
     <string name="ok">OK</string>
     <string name="cancel">キャンセル</string>
@@ -33,10 +33,10 @@
     <string name="copied">コピーされました</string>
 
     <string name="link_title">QRコードでリンク</string>
-    <string name="link_description">AnonChatXでこのQRコードを読み取ってください</string>
+    <string name="link_description">AnonomiでこのQRコードを読み取ってください</string>
     <string name="link_menu_title">テキストとして表示</string>
     <string name="link_text_title">テキストでリンク</string>
-    <string name="link_text_description">AnonChatXデスクトップへ、これをコピーして貼り付けてください:</string>
+    <string name="link_text_description">Anonomiデスクトップへ、これをコピーして貼り付けてください:</string>
     <string name="link_cancel">セットアップをキャンセル</string>
 
     <string name="startup_headline">メールボックス起動</string>
@@ -58,19 +58,19 @@
     <string name="stop">停止</string>
     <string name="unlink">リンク解除</string>
     <string name="unlink_title">メールボックスをリンク解除しますか？</string>
-    <string name="unlink_description">メールボックスをリンク解除すると、AnonChatXがオフライン中にメッセージを受け取れません。\n\nメールボックスを本当にリンク解除しますか?</string>
+    <string name="unlink_description">メールボックスをリンク解除すると、Anonomiがオフライン中にメッセージを受け取れません。\n\nメールボックスを本当にリンク解除しますか?</string>
     <string name="confirm_stop_title">メールボックスを停止しますか?</string>
-    <string name="confirm_stop_description">メールボックスを停止すると、アプリはシャットダウンして、アプリを再び開くまでは、メッセージ受け取りを停止します。\n\n既に受け取ったあらゆるメッセージは保存されます。AnonChatXはそのメールボックスアプリを再度開いたとき、それらのメッセージを収集できます。</string>
+    <string name="confirm_stop_description">メールボックスを停止すると、アプリはシャットダウンして、アプリを再び開くまでは、メッセージ受け取りを停止します。\n\n既に受け取ったあらゆるメッセージは保存されます。Anonomiはそのメールボックスアプリを再度開いたとき、それらのメッセージを収集できます。</string>
 
     <string name="setup_complete_title">接続済み</string>
-    <string name="setup_complete_description">あなたのメールボックスはAnonChatXとのリンクに成功しています。\nメールボックスを電源とW-Fiに接続して、常時オンラインにしてください。</string>
+    <string name="setup_complete_description">あなたのメールボックスはAnonomiとのリンクに成功しています。\nメールボックスを電源とW-Fiに接続して、常時オンラインにしてください。</string>
     <string name="setup_complete_finish">終了</string>
 
     <string name="stopping">メールボックスを停止中…</string>
 
     <string name="wipe_wiping">メールボックスを完全消去中…</string>
     <string name="wipe_complete_title">完全消去完了</string>
-    <string name="wipe_complete_description">次回AnonChatX端末にアクセスしたら、AnonChatXアプリ内のメールボックス設定画面を開いて、「リンク解除」ボタンをタップして、処理を完了してください。</string>
+    <string name="wipe_complete_description">次回Anonomi端末にアクセスしたら、Anonomiアプリ内のメールボックス設定画面を開いて、「リンク解除」ボタンをタップして、処理を完了してください。</string>
 
     <string name="sorry">申し訳ありません</string>
     <string name="activity_not_found">この動作を行うアプリがありません</string>

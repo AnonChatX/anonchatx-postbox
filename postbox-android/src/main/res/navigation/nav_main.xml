@@ -7,27 +7,27 @@
 
     <fragment
         android:id="@+id/initFragment"
-        android:name="org.anonchatx.postbox.android.ui.InitFragment"
+        android:name="org.anonomi.postbox.android.ui.InitFragment"
         android:label="InitFragment"
         tools:layout="@layout/fragment_init" />
     <fragment
         android:id="@+id/onboardingFragment"
-        android:name="org.anonchatx.postbox.android.ui.OnboardingContainerFragment"
+        android:name="org.anonomi.postbox.android.ui.OnboardingContainerFragment"
         android:label="OnboardingContainerFragment"
         tools:layout="@layout/fragment_onboarding" />
     <fragment
         android:id="@+id/doNotKillMeFragment"
-        android:name="org.anonchatx.postbox.android.dontkillme.DoNotKillMeFragment"
+        android:name="org.anonomi.postbox.android.dontkillme.DoNotKillMeFragment"
         android:label="DoNotKillMeFragment"
         tools:layout="@layout/fragment_dont_kill_me" />
     <fragment
         android:id="@+id/startupFragment"
-        android:name="org.anonchatx.postbox.android.ui.StartupFragment"
+        android:name="org.anonomi.postbox.android.ui.StartupFragment"
         android:label="StartupFragment"
         tools:layout="@layout/fragment_startup" />
     <fragment
         android:id="@+id/qrCodeFragment"
-        android:name="org.anonchatx.postbox.android.ui.QrCodeFragment"
+        android:name="org.anonomi.postbox.android.ui.QrCodeFragment"
         android:label="@string/link_title"
         tools:layout="@layout/fragment_qr">
         <action
@@ -36,37 +36,37 @@
     </fragment>
     <fragment
         android:id="@+id/qrCodeLinkFragment"
-        android:name="org.anonchatx.postbox.android.ui.QrCodeLinkFragment"
+        android:name="org.anonomi.postbox.android.ui.QrCodeLinkFragment"
         android:label="@string/link_title"
         tools:layout="@layout/fragment_qr_link" />
     <fragment
         android:id="@+id/setupCompleteFragment"
-        android:name="org.anonchatx.postbox.android.ui.SetupCompleteFragment"
+        android:name="org.anonomi.postbox.android.ui.SetupCompleteFragment"
         android:label="SetupCompleteFragment"
         tools:layout="@layout/fragment_setup_complete" />
     <fragment
         android:id="@+id/statusFragment"
-        android:name="org.anonchatx.postbox.android.ui.StatusFragment"
+        android:name="org.anonomi.postbox.android.ui.StatusFragment"
         android:label="StatusFragment"
         tools:layout="@layout/fragment_status" />
     <fragment
         android:id="@+id/noNetworkFragment"
-        android:name="org.anonchatx.postbox.android.ui.NoNetworkFragment"
+        android:name="org.anonomi.postbox.android.ui.NoNetworkFragment"
         android:label="NoNetworkFragment"
         tools:layout="@layout/fragment_no_network" />
     <fragment
         android:id="@+id/clockSkewFragment"
-        android:name="org.anonchatx.postbox.android.ui.ClockSkewFragment"
+        android:name="org.anonomi.postbox.android.ui.ClockSkewFragment"
         android:label="ClockSkewFragment"
         tools:layout="@layout/fragment_clock_skew" />
     <fragment
         android:id="@+id/stoppingFragment"
-        android:name="org.anonchatx.postbox.android.ui.StoppingFragment"
+        android:name="org.anonomi.postbox.android.ui.StoppingFragment"
         android:label="StoppingFragment"
         tools:layout="@layout/fragment_stopping" />
     <fragment
         android:id="@+id/wipingFragment"
-        android:name="org.anonchatx.postbox.android.ui.WipingFragment"
+        android:name="org.anonomi.postbox.android.ui.WipingFragment"
         android:label="WipingFragment"
         tools:layout="@layout/fragment_wiping" />
     <action

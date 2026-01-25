@@ -1,11 +1,11 @@
-# AnonChatX Postbox
+# Anonomi Postbox
 
 ## What this is — and what it is not
 
-AnonChatX Postbox exists to solve a real constraint of peer-to-peer systems
+Anonomi Postbox exists to solve a real constraint of peer-to-peer systems
 **without reintroducing centralized control**.
 
-AnonChatX messages are exchanged directly between contacts.
+Anonomi messages are exchanged directly between contacts.
 There are no servers. No accounts. No global infrastructure.
 
 That model maximizes privacy —
@@ -15,8 +15,8 @@ In hostile, mobile, or unstable environments, that assumption does not hold.
 
 Postbox exists to extend reachability **without betraying the threat model**.
 
-It is not a platform.  
-It is not a service.  
+It is not a platform.
+It is not a service.
 It is not a convenience layer owned by someone else.
 
 It is user-controlled infrastructure.
@@ -52,13 +52,13 @@ It is the cost of refusing central servers.
 But in mobile networks, under power constraints, or in high-risk conditions,
 availability is inconsistent by default.
 
-Postbox addresses this **without turning AnonChatX into a platform**.
+Postbox addresses this **without turning Anonomi into a platform**.
 
 ---
 
 ## The solution: a postbox you control
 
-AnonChatX Postbox is a **store-and-forward buffer** operated by the user,
+Anonomi Postbox is a **store-and-forward buffer** operated by the user,
 not by a company or network operator.
 
 It is:
@@ -71,8 +71,8 @@ It is:
 Contacts can leave encrypted messages for the postbox owner.
 The owner retrieves them when they reconnect.
 
-No global directory.  
-No shared infrastructure.  
+No global directory.
+No shared infrastructure.
 No third-party custody.
 
 
@@ -104,7 +104,7 @@ Postbox improves reachability **without creating a server worth seizing**.
 
 ## Threat-model alignment
 
-Postbox is designed under the same assumptions as AnonChatX:
+Postbox is designed under the same assumptions as Anonomi:
 
 - Networks are monitored
 - Traffic may be blocked or delayed
@@ -205,7 +205,7 @@ If you are looking for control, this one makes trade-offs explicit.
 
 ## Open source & verification
 
-AnonChatX is developed transparently and in public.
+Anonomi is developed transparently and in public.
 
 Security relies on:
 - Public, auditable source code
@@ -216,7 +216,7 @@ Security relies on:
 
 ## Contributing
 
-AnonChatX is under active development, with a strong focus on security,
+Anonomi is under active development, with a strong focus on security,
 resilience, and real-world adversarial environments.
 
 Contributions of all kinds are welcome:
@@ -227,16 +227,16 @@ Contributions of all kinds are welcome:
 - UX for high-risk users
 - Documentation & threat analysis
 
-➡️ See [CONTRIBUTING.md](./CONTRIBUTING.md)
+See [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ---
 
 ## Contact
 
 For security-related matters, responsible disclosure, or project coordination,
-you can contact the AnonChatX maintainers at:
+you can contact the Anonomi maintainers at:
 
-**anonchatsec@protonmail.com**
+**anonomi@protonmail.com**
 
 Proton Mail access:
 - Clearnet: https://proton.me
@@ -250,7 +250,7 @@ and prefer encrypted communication when appropriate.
 
 ## Support & sustainability
 
-AnonChatX is independent and community-supported.
+Anonomi is independent and community-supported.
 
 Support may include:
 - Code contributions
@@ -269,10 +269,10 @@ Financial contributions are accepted in a privacy-respecting way:
 `bc1qqjw2qyj276jkwdd0wxm4y4vyggsmr73y9nm066`
 
 For QR codes, and updated donation information, see:
-https://anonchatx.org/#supporters
+https://anonomi.org/#supporters
 (onion mirror soon available)
 
-Part of the project’s resources are used to support the Tor ecosystem
+Part of the project's resources are used to support the Tor ecosystem
 by running relays and bridges.
 
 **Sponsorship does not equal influence.**
@@ -281,7 +281,7 @@ by running relays and bridges.
 
 ## License
 
-AnonChatX is free and open source software, licensed under the
+Anonomi is free and open source software, licensed under the
 **GNU General Public License v3.0 (GPL-3.0)**.
 
 This means you are free to:
@@ -293,9 +293,9 @@ This means you are free to:
 Under the following conditions:
 - Source code (including modifications) must be made available under the same license
 - License notices and attributions must be preserved
-- No additional restrictions may be imposed on users’ freedoms
+- No additional restrictions may be imposed on users' freedoms
 
-AnonChatX derives from the Briar project and other GPL-licensed components.
+Anonomi derives from the Briar project and other GPL-licensed components.
 All required attributions and license notices are included in this repository.
 
 See the [LICENSE](./LICENSE) file for full details.
@@ -304,7 +304,7 @@ See the [LICENSE](./LICENSE) file for full details.
 
 ## Disclaimer
 
-AnonChatX is designed for real-world adversarial environments, but no software
+Anonomi is designed for real-world adversarial environments, but no software
 can eliminate all risk.
 
 Users are responsible for understanding their own threat model,

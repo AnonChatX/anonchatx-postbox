@@ -30,11 +30,11 @@ jobs:
 
       - name: Decode keystore
         run: |
-          printf '%s' "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" | base64 --decode > "${{ runner.temp }}/anonchat.keystore"
+          printf '%s' "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" | base64 --decode > "${{ runner.temp }}/anonomi.keystore"
 
       - name: Build signed Postbox APK
         env:
-          ANDROID_KEYSTORE_PATH: ${{ runner.temp }}/anonchat.keystore
+          ANDROID_KEYSTORE_PATH: ${{ runner.temp }}/anonomi.keystore
           ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
           ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
           ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
