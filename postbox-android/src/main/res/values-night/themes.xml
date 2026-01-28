@@ -4,7 +4,7 @@
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/briar_night</item>
         <item name="colorPrimaryDark">#1F78D1</item>
-        <item name="colorSecondary">@color/briar_green</item>
+        <item name="colorSecondary">@color/anon_purple</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Customize your theme here. -->
         <item name="android:background">@color/black</item>

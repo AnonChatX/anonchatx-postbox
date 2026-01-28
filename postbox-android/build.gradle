@@ -213,14 +213,13 @@ tasks.withType(MergeResources) {
     dependsOn unpackTorBinaries
 }
 
-// ✅ New task: Copy release APK to Anonomi assets
+// Copy release APK to Anonomi assets
 tasks.register("copyApkToAnonomiAssets", Copy) {
     dependsOn("assembleRelease")
     from("$buildDir/outputs/apk/release") {
         include("*.apk")
         rename { "anonomi-postbox.apk" }
     }
-    // Go up one level from postbox to anonomi-android
     into("$rootDir/../anonomi-android/src/main/assets/")
 }
 

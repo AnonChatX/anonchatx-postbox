@@ -21,7 +21,7 @@
         app:layout_constraintWidth_max="128dp"
         app:layout_constraintWidth_percent="0.33"
         app:srcCompat="@drawable/ic_mailbox"
-        app:tint="@color/briar_green" />
+        app:tint="@color/anon_purple" />
 
     <TextView
         android:id="@+id/text"
