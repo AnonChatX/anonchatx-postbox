@@ -18,5 +18,5 @@ jobs:
 
       - name: Mirror to Codeberg
         run: |
-          git remote add codeberg https://${{ secrets.CODEBERG_TOKEN }}@codeberg.org/anonomi-org/anonomi-postbox.git
+          git remote add codeberg https://${{ secrets.CODEBERG_TOKEN }}@codeberg.org/Anonomi/anonomi-postbox.git
           git push --mirror codeberg
